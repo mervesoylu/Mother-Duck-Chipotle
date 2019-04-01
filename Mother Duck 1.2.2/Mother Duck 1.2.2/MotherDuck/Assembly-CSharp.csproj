@@ -163,6 +163,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\3rdPartyAssets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
+    <None Include="Assets\MotherDuckLEVELS\YOUR_WORK_HERE\Meshes\DELETE_ME.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\3rdPartyAssets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
     <None Include="Assets\3rdPartyAssets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
@@ -208,7 +209,6 @@
     <None Include="Assets\3rdPartyAssets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\3rdPartyAssets\ShaderForge\Example Assets\Shaders\Tiles.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
-    <None Include="Assets\MotherDuckLEVELS\YOUR_WORK_HERE\Meshes\DELETE_ME.txt" />
     <None Include="Assets\3rdPartyAssets\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
     <None Include="Assets\3rdPartyAssets\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
