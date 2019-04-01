@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f7f5e4f41063f654287aab64a59bedae
+guid: 6d72ceeef47e9484db8e7f65ee3e2c0d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -14,7 +14,6 @@ ModelImporter:
     2100000: UmbrellaMat
     2100002: Umbrella_Bottom_(1)Mat
     2100004: Umbrella_Bottom_(2)Mat
-    2100006: Default_Prototype
     2300000: Umbrella
     2300002: Umbrella_Bottom_(1)
     2300004: Umbrella_Bottom_(2)
