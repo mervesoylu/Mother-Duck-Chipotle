@@ -21,8 +21,9 @@ GameObject:
   - component: {fileID: 4403987354309118}
   - component: {fileID: 33785484477719476}
   - component: {fileID: 23794504305788604}
+  - component: {fileID: 114991781805357944}
   - component: {fileID: 54190626651477944}
-  - component: {fileID: 65579112579687038}
+  - component: {fileID: 64107484353453952}
   m_Layer: 0
   m_Name: hero asset sefa
   m_TagString: Untagged
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1248152599053648}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 3.77, y: 9.742, z: 2.892}
+  m_LocalPosition: {x: 98.47, y: 11.03, z: 2.6}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,7 +59,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 55498c44d4d9b1c46b26c27cd89eb2b9, type: 2}
+  - {fileID: 2100000, guid: 01fba1c15bf3b1c49abf738c29bb3508, type: 2}
+  - {fileID: 2100000, guid: 9f6e839c82105e24fbf8743c7ab9a766, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +86,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1248152599053648}
-  m_Mesh: {fileID: 4300000, guid: 325feabef364a724aa8e5ee2b5126943, type: 3}
+  m_Mesh: {fileID: 4300002, guid: 325feabef364a724aa8e5ee2b5126943, type: 3}
 --- !u!54 &54190626651477944
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -100,8 +102,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65579112579687038
-BoxCollider:
+--- !u!64 &64107484353453952
+MeshCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -109,6 +111,19 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.08597736, y: 0.082238294, z: 0.010000005}
-  m_Center: {x: -0.000000003725291, y: 0, z: 0}
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300002, guid: 325feabef364a724aa8e5ee2b5126943, type: 3}
+--- !u!114 &114991781805357944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248152599053648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221d879770b3e9448ab017b4c0c8723b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
