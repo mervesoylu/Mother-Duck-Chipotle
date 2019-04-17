@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 23472948088607220}
   - component: {fileID: 65513457915089196}
   - component: {fileID: 65904148108104976}
+  - component: {fileID: 54993686826381078}
+  - component: {fileID: 114121464323249944}
   m_Layer: 0
   m_Name: umbrella mesh
   m_TagString: Untagged
@@ -86,6 +88,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1601834879050322}
   m_Mesh: {fileID: 4300002, guid: bffa7bdebb9a1fc419a49a779b260d9f, type: 3}
+--- !u!54 &54993686826381078
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1601834879050322}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &65513457915089196
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -110,3 +127,14 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.015106345, y: 0.04071745, z: 0.014570964}
   m_Center: {x: -0.00089380745, y: 0.02064395, z: -0.00055797695}
+--- !u!114 &114121464323249944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1601834879050322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221d879770b3e9448ab017b4c0c8723b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
