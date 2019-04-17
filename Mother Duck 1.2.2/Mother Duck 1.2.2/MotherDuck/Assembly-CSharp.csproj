@@ -219,16 +219,16 @@
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\3rdPartyAssets\ProCore\ProBuilder\About\Credits.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -429,22 +429,22 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="XInputDotNetPure">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/Plugins/x86_64/XInputDotNetPure.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="KDTree">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="Triangle">
-      <HintPath>C:/Users/omers/OneDrive/Documents/New folder/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
+      <HintPath>C:/Users/omers/OneDrive/Documents/SVN/trunk/Mother Duck 1.2.2/Mother Duck 1.2.2/MotherDuck/Assets/3rdPartyAssets/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/omers/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
