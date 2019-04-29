@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23794504305788604}
   - component: {fileID: 114991781805357944}
   - component: {fileID: 54190626651477944}
-  - component: {fileID: 64107484353453952}
+  - component: {fileID: 64748609831901566}
   m_Layer: 0
   m_Name: hero asset sefa
   m_TagString: Untagged
@@ -37,9 +37,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1248152599053648}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 98.47, y: 11.03, z: 2.6}
-  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1076, y: -0.001800003, z: -1.894}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 01fba1c15bf3b1c49abf738c29bb3508, type: 2}
-  - {fileID: 2100000, guid: 9f6e839c82105e24fbf8743c7ab9a766, type: 2}
+  - {fileID: 2100000, guid: 01fba1c15bf3b1c49abf738c29bb3508, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -102,7 +102,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64107484353453952
+--- !u!64 &64748609831901566
 MeshCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,7 +112,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 325feabef364a724aa8e5ee2b5126943, type: 3}

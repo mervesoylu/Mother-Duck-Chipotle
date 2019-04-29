@@ -96,9 +96,9 @@ GameObject:
   - component: {fileID: 4028155955002870}
   - component: {fileID: 33356770022109160}
   - component: {fileID: 23487847692072106}
-  - component: {fileID: 64657280783164024}
   - component: {fileID: 54910644384114102}
   - component: {fileID: 114294702187349778}
+  - component: {fileID: 65275337243006952}
   m_Layer: 0
   m_Name: napkin holder
   m_TagString: Untagged
@@ -136,9 +136,9 @@ GameObject:
   - component: {fileID: 4260948527670822}
   - component: {fileID: 33296057035216416}
   - component: {fileID: 23796751934573906}
-  - component: {fileID: 64785698081232988}
   - component: {fileID: 54008885012959444}
   - component: {fileID: 114332380639356382}
+  - component: {fileID: 65823911453567616}
   m_Layer: 0
   m_Name: pepper holder
   m_TagString: Untagged
@@ -176,9 +176,9 @@ GameObject:
   - component: {fileID: 4443204537826904}
   - component: {fileID: 33052998249914392}
   - component: {fileID: 23028266151562402}
-  - component: {fileID: 64872072298194874}
   - component: {fileID: 54120403127780712}
   - component: {fileID: 114748041457377866}
+  - component: {fileID: 65117195555859176}
   m_Layer: 0
   m_Name: salt holder
   m_TagString: Untagged
@@ -232,7 +232,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1103377545116042}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 101.186, y: 1.5175688, z: 3.237}
+  m_LocalPosition: {x: 78.791, y: 1.5175688, z: 3.236}
   m_LocalScale: {x: 14, y: 14, z: 14}
   m_Children:
   - {fileID: 4913184845324666}
@@ -824,20 +824,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: cb5c0a1c7cf99e44fb2123f2d6b3a835, type: 3}
---- !u!64 &64657280783164024
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1602892366471714}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: a35f5b0457c1d014b865536dc9201726, type: 3}
 --- !u!64 &64740777754836722
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -852,22 +838,8 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: a787a2963b6b3054ea47f40dacb5c9b8, type: 3}
---- !u!64 &64785698081232988
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1694749636692718}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 427f157d28a13ed468c613c1860cfc4a, type: 3}
---- !u!64 &64872072298194874
-MeshCollider:
+--- !u!65 &65117195555859176
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -875,11 +847,33 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 427f157d28a13ed468c613c1860cfc4a, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 100.000046, y: 199.99998, z: 100.00008}
+  m_Center: {x: 0, y: -0.00048828125, z: -0.0009765625}
+--- !u!65 &65275337243006952
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602892366471714}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3873596, y: 2.201429, z: 1.3681538}
+  m_Center: {x: -0.003208311, y: 0, z: 0.04885479}
+--- !u!65 &65823911453567616
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694749636692718}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100.000046, y: 199.99998, z: 100.00008}
+  m_Center: {x: 0, y: -0.00048828125, z: -0.0009765625}
 --- !u!114 &114186376347648184
 MonoBehaviour:
   m_ObjectHideFlags: 1
