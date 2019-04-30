@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4126452975209536}
   - component: {fileID: 33791825217654688}
   - component: {fileID: 23376340357097944}
-  - component: {fileID: 54570132483909200}
   - component: {fileID: 114814867057961754}
   - component: {fileID: 64776384576101174}
+  - component: {fileID: 54570132483909200}
   m_Layer: 0
   m_Name: Table for unity
   m_TagString: Untagged
@@ -59,7 +59,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 9c49007c123825c4b88bb7d0c69dcdce, type: 2}
+  - {fileID: 2100000, guid: 1f16b4a2e3155ba4293c42c37b185f04, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
