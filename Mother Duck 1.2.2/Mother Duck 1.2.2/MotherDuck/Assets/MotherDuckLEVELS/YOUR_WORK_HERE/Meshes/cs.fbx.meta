@@ -10,6 +10,9 @@ ModelImporter:
     2100004: lambert3
     2100006: lambert2
     2100008: lambert5
+    2100010: lambert7
+    2100012: lambert6
+    2100014: lambert8
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCube11
