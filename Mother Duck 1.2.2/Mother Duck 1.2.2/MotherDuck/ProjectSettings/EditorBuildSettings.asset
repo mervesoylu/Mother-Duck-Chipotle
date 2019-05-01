@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MotherDuckLEVELS/YOUR_WORK_HERE/Scenes/Alpha Main.unity
+    guid: def99cb39d2fb0f448746d74dc7d9274
   m_configObjects: {}
